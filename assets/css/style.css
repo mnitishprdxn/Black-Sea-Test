@@ -328,6 +328,21 @@ button {
 
 textarea { height: 80px; }
 
+footer {
+  height: 40px;
+  background-color: #01D08A;
+}
+
+footer p {
+  padding-top: 10px;
+  text-align: center;
+  color: white;
+  font-family: 'Myriad Pro', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25px;
+  }
+
 
 
 
