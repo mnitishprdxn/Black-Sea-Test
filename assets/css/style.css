@@ -1,0 +1,211 @@
+@charset "utf-8";
+/* ==========================================================================
+   1. CSS Reset Code
+   ========================================================================== */
+
+   html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
+   blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img,
+   ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i,center,
+   dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody,
+   tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure,
+   figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+   time, mark, audio, video {
+    padding: 0;
+    margin: 0;
+
+    font: inherit;
+    font-size: 100%;
+
+    vertical-align: baseline;
+
+    border: 0;
+  }
+
+  /* HTML5 display-role reset for older browsers */
+  article,
+  aside,
+  details,
+  figcaption,
+  figure,
+  footer,
+  header,
+  hgroup,
+  menu,
+  nav,
+  section,
+  main {
+    display: block;
+  }
+
+  /* Force scrollbar */
+  html {
+    overflow-y: scroll;
+  }
+
+  /* Align radios and text inputs with their label */
+
+  input[type="radio"] {
+    vertical-align: text-bottom;
+  }
+
+  /* Hand cursor on clickable input elements */
+  label,
+  input[type="button"],
+  input[type="submit"],
+  button {
+    cursor: pointer;
+  }
+
+  strong {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: bold;
+  }
+
+  em {
+    font-style: italic;
+  }
+
+  img {
+    vertical-align: middle;
+
+    border: 0;
+  }
+
+  sub,
+  sup {
+    position: relative;
+
+    font-size: 55%;
+    line-height: 0;
+
+    vertical-align: baseline;
+  }
+
+  sup {
+    top: -.7em;
+  }
+
+  sub {
+    bottom: -.25em;
+  }
+
+/* 1.2. Clear Fix
+========================================================================== */
+
+  .cf:before,
+  .cf:after {
+    display: table;
+
+    content: " ";
+  }
+
+  .cf:after {
+    clear: both;
+  }
+
+  .cf {
+    *zoom: 1;
+  }
+
+/*********************** Styling start **********************/
+
+body { font-family: sans-serif; }
+
+.wrapper { 
+  margin: 0 auto; 
+  width: 796px;
+ }
+
+header { background-color: #519DAA; }
+
+a {  text-decoration: none; }
+
+h1 {
+  padding: 28px 0;
+  font-family: 'Cherry Swash', cursive;;
+  color: white;
+  font-size: 40px; 
+  font-weight: 400;
+  line-height: 25px; 
+  text-align: left;
+  display: inline-block;
+}
+
+header ul {
+  padding: 32px 0;
+  list-style: none;
+  display: inline-block;
+  float: right;
+}
+
+header li {
+  display: inline-block;
+}
+
+header a {
+  font-family: HelveticaLT, sans-serif;
+  color:  #dce3e4;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: left;
+}
+
+header ul li~li:before {
+  content: " / ";
+  padding: 0 10px;
+  color: #dce3e4;
+}
+
+.banner-div {
+  background: url(../images/blacksea.jpg);
+}
+
+.title-info { padding-top: 130px; }
+
+.title-info > p {
+  font-family: HelveticaLTStd, sans-serif;
+  color:  #E1E2E6;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 58px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.banner-div { text-align: center; }
+
+.button {
+  padding: 0 35px;
+  margin: 0 auto; 
+  margin-top: 47px;
+  border: solid 4px grey;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.button p {
+  font-family: HelveticaLTStd, sans-serif;
+  color:  #e4e4e4;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 58px;
+  text-align: left;
+  display: inline;
+}
+
+.title-info ul {
+  margin-top: 122px;
+  padding-bottom: 22px;
+  list-style: none;
+}
+
+.title-info li { display: inline-block; }
+
+.ethics {
+  padding: 84px 0;
+  text-align: center;
+}
+
+
+
