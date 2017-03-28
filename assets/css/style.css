@@ -207,5 +207,34 @@ header ul li~li:before {
   text-align: center;
 }
 
+.ethics p:nth-child(1) {
+  padding: 0 72px;
+  font-family: HelveticaLTStd, sans-serif;
+  color:  #4c505d;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 49px;
+  text-align: center;
+}
+
+.ethics p:nth-child(2) {
+  font-family: HelveticaLTStd,sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  font-size: 14px; 
+  line-height: 22px;
+  color: #4c505d;
+  text-align: center;
+}
+
+.ethics-imgs {
+  padding-top: 71px;
+  display: inline-block;
+}
+
+.ethics-imgs img+img{
+  padding-left: 125px;
+}
+
 
 
