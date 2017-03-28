@@ -282,7 +282,53 @@ header ul li~li:before {
 
 .map-form {
   background-image: url(../images/map.png);
+  padding: 32px 0; 
 }
+
+.map-form form{
+  margin: 0 auto; 
+  width: 430px;
+  height: 430px;
+  padding: 1px;
+  border-radius: 235px;
+  opacity: .9;
+  background-color: white;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {  
+  padding-left: 17px;
+  margin-left:70px;
+  display: block;
+  width: 275px;
+  height: 31px;
+}
+
+button {
+  margin-left: 178px;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+  resize: none;
+}
+
+input[type="text"] {
+  margin-top: 112px;
+}
+
+input[type="email"],
+textarea,
+button {
+  margin-top: 15px;
+}
+
+textarea { height: 80px; }
+
+
 
 
 
