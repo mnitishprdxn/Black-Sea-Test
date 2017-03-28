@@ -232,9 +232,58 @@ header ul li~li:before {
   display: inline-block;
 }
 
-.ethics-imgs img+img{
-  padding-left: 125px;
+.ethics-imgs img+img{ padding-left: 125px; }
+
+.dhavan-outer-div {
+  padding: 96px 0; 
+  text-align: center;
+  background-color: #01D08A;
 }
+
+.img-quote { 
+  display: inline-block;
+  font-family: HelveticaLTStd, sans-serif;
+  color:  #e4e4e4;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 58px;
+  text-align: center; 
+}
+
+.img-quote p:nth-child(2) {
+  font-family: HelveticaLTStd;
+  color: #32D9A1;
+  font-size: 338.37px;
+  font-weight: 700;
+  text-align: center;
+  }
+
+.quote {
+  float: right;
+  padding-top: 0px;
+}
+
+.quote p:nth-child(1) {
+  display: inline-block;
+}
+
+.quote p:nth-child(2) {
+  padding-top: 94px;
+}
+
+.dhavan-div p{
+  font-family: HelveticaLTStd, sans-serif;
+  color: white;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 32px;
+  text-align: left;
+}
+
+.map-form {
+  background-image: url(../images/map.png);
+}
+
 
 
 
